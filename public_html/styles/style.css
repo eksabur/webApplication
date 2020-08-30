@@ -21,5 +21,14 @@ form {
     padding: 1vw;
 }
 .formContent {
-    font-size: 1vw;
+    font-size: 1.2vw;
+}
+#fName, #mName, #lName {
+    margin-right: 2vw;
+}
+#name {
+    text-align: center;
+}
+#name input {
+    width: 12vw;
 }
