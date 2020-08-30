@@ -12,5 +12,14 @@ h1{
     text-align: center;
     color: rgb(100,100,100);
     margin-top:-2vw;
-    
+}
+form {
+    border: solid black;
+    border-width: 1px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 1vw;
+}
+.formContent {
+    font-size: 1vw;
 }
