@@ -5,30 +5,43 @@ h1{
     text-align: center;
     font-size: 3.7vw;
     margin-top: 0;
-    /*border-bottom: solid black;*/
 }
+
 #disclosureNotice>p {
     font-size: 1.2vw;
     text-align: center;
     color: rgb(100,100,100);
     margin-top:-2vw;
 }
+
 form {
     border: solid black;
     border-width: 1px;
     margin-left: 10vw;
     margin-right: 10vw;
     padding: 1vw;
+    font-size: 1.3vw;
+    width: 80vw;
+    display:inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
-.formContent {
-    font-size: 1.2vw;
+
+.required::before {
+    content:"*";
+    color: red;
+}
+
+/*
+input[type="text"] {
+    height: 1.2vw;
 }
 #fName, #mName, #lName {
     margin-right: 2vw;
 }
-#name {
-    text-align: center;
-}
+
 #name input {
-    width: 12vw;
+    width: 15%;
+    height: 10%;
 }
+*/

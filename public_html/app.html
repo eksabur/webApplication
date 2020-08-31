@@ -14,7 +14,7 @@
                 <p>
                     The following is an application for the currently vacant "girlfriend" position.
                     All information provided must be accurate to the best of your knowledge. Discovery 
-                    of the falsification of any of the data provided may be grounds for disciplinary 
+                    of the falsification of any of the data provided herein may be grounds for disciplinary 
                     actions up to and including dismissal from further consideration or termination 
                     of position post-acceptance, contingent upon the severity of the misrepresentation 
                     and at the discretion of the acquisitioning party. By submitting your information 
@@ -27,17 +27,22 @@
             </div>
         </header>
         <form>
-            <div id="name">
-                <label for="fName" class="formContent">First Name: </label>
-                <input type="text" id="fName" name="fName" class="formContent">
-                <label for="mName" class="formContent"> Middle Name (or initial): </label>
-                <input type="text" id="mName" name="mName" class="formContent">
-                <label for="lName" class="formContent"> Last Name: </label>
-                <input type="text" id="lName" name="lName" class="formContent"><br>
+            <div>
+                <label for="fName" class="required">First Name: </label>
+                <input type="text" id="fName" name="fName" required 
+                       maxlength="20" size="20" pattern="[A-Za-z]" tabindex="1">
+                <label for="mName"> Middle Name (or initial): </label>
+                <input type="text" id="mName" name="mName" 
+                       maxlength="20" size="20" pattern="[A-Za-z]" tabindex="2">
+                <label for="lName"> Last Name: </label>
+                <input type="text" id="lName" name="lName" 
+                       maxlength="20" size="20" pattern="[A-Za-z]" tabindex="3"><br>
             </div>
+            <input type="reset">
+            <input type="submit">
         </form>
         <footer>
-            
+
         </footer>
     </body>
 </html>
