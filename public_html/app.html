@@ -31,15 +31,27 @@
                 <label for="fName" class="required">First Name: </label>
                 <input type="text" id="fName" name="fName" required 
                        maxlength="20" size="20" pattern="[A-Za-z]" tabindex="1">
-                <label for="mName"> Middle Name (or initial): </label>
+                <label for="mName">Middle Name (or initial): </label>
                 <input type="text" id="mName" name="mName" 
                        maxlength="20" size="20" pattern="[A-Za-z]" tabindex="2">
-                <label for="lName"> Last Name: </label>
+                <label for="lName">Last Name: </label>
                 <input type="text" id="lName" name="lName" 
                        maxlength="20" size="20" pattern="[A-Za-z]" tabindex="3"><br>
+                <span id="leftAlign">
+                    <label for="dob" class="required">Date of Birth: </label>
+                    <input type="date" id="dob" name="dob" required tabindex="4"><br>
+
+                    <label for="height">Height: </label>
+                    <input type="number" id="height" name="height" min="3" max="8" title="Feet" tabindex="5">'
+                    <input type="number" id="heightInches" name="heightIn" min="0" max="11" title="inches" tabindex="6">''
+                    <label for="weight">Weight: </label>
+                    <input type="number" id="weight" name="weight" min="50" max="1000" title="lbs" tabindex="7"><br>
+                </span>
+
+
             </div>
-            <input type="reset">
-            <input type="submit">
+            <input type="reset" class="button">
+            <input type="submit" class="button">
         </form>
         <footer>
 

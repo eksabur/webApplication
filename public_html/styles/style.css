@@ -32,12 +32,25 @@ form {
     color: red;
 }
 
-/*
-input[type="text"] {
-    height: 1.2vw;
-}
 #fName, #mName, #lName {
     margin-right: 2vw;
+}
+
+label {
+    margin-right: .25vw;
+}
+
+.button {
+    margin: 1vw;
+    font-size: 1.3vw;
+}
+
+#leftAlign {
+    text-align: left;
+}
+/*
+input[type="text"] {
+    
 }
 
 #name input {
